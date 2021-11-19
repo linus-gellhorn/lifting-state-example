@@ -1,6 +1,6 @@
 interface ApplesProps {
   AppleCount: number;
-  handleAddApple: any;
+  handleAddApple: () => void;
 }
 
 export default function Apples(props: ApplesProps): JSX.Element {

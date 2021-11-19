@@ -1,6 +1,6 @@
 interface BananasProps {
   BananaCount: number;
-  handleAddBanana: any;
+  handleAddBanana: () => void;
 }
 
 export default function Bananas(props: BananasProps): JSX.Element {
