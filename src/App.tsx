@@ -20,18 +20,8 @@ function App(): JSX.Element {
   return (
     <>
       <h1>Lifting state: you only have room for 10!</h1>
-      <Apples
-        AppleCount={AppleCount}
-        handleAddApple={handleAddApple}
-        BananaCount={BananaCount}
-        handleAddBanana={handleAddBanana}
-      />
-      <Bananas
-        AppleCount={AppleCount}
-        handleAddApple={handleAddApple}
-        BananaCount={BananaCount}
-        handleAddBanana={handleAddBanana}
-      />
+      <Apples AppleCount={AppleCount} handleAddApple={handleAddApple} />
+      <Bananas BananaCount={BananaCount} handleAddBanana={handleAddBanana} />
       <hr />
       <Carrots />
     </>

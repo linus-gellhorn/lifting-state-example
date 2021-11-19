@@ -1,6 +1,4 @@
 interface BananasProps {
-  AppleCount: number;
-  handleAddApple: any;
   BananaCount: number;
   handleAddBanana: any;
 }
